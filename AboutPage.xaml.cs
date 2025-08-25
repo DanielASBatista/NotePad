@@ -9,6 +9,6 @@ public partial class AboutPage : ContentPage
 
     private void LinkGit_Clicked(object sender, EventArgs e)
     {
-		Launcher.Default.OpenAsync("https://github.com/fantasyslayer?tab=repositories");
+		Launcher.Default.OpenAsync("https://github.com/HernanRoACalle?tab=repositories");
     }
 }

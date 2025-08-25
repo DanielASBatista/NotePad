@@ -21,7 +21,7 @@
                 HorizontalOptions="Center" />
             <Button
                 x:Name="LinkGit"
-                Text="Ira para o GitHub" 
+                Text="Ir para o GitHub" 
                 SemanticProperties.Hint="Vai pro Git quando clica"
                 Clicked="LinkGit_Clicked"
                 HorizontalOptions="Fill"/>

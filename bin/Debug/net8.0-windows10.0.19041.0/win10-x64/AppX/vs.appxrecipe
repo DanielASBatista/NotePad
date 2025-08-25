@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\2DS - DanielYHernan\PAM\GuilhermeBellotti\Notes\Notes\Notes\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-08-19T01:18:34.924</Modified>
+      <Modified>2025-08-25T23:34:42.061</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\GuilhermeBellotti\Notes\Notes\Notes\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-08-19T01:18:34.783</Modified>
+      <Modified>2025-08-25T22:37:35.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\GuilhermeBellotti\Notes\Notes\Notes\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Notes.runtimeconfig.json">
       <PackagePath>Notes.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\GuilhermeBellotti\Notes\Notes\Notes\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Notes.dll">
       <PackagePath>Notes.dll</PackagePath>
-      <Modified>2025-08-19T01:18:33.746</Modified>
+      <Modified>2025-08-25T23:34:41.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\GuilhermeBellotti\Notes\Notes\Notes\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Notes.exe</PackagePath>
-      <Modified>2025-08-19T01:18:33.793</Modified>
+      <Modified>2025-08-25T23:34:41.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\GuilhermeBellotti\Notes\Notes\Notes\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -292,7 +292,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\2DS - DanielYHernan\PAM\GuilhermeBellotti\Notes\Notes\Notes\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Notes.deps.json">
       <PackagePath>Notes.deps.json</PackagePath>
-      <Modified>2025-08-19T01:18:34.596</Modified>
+      <Modified>2025-08-25T22:37:35.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\NugetPackages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

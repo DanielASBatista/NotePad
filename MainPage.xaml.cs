@@ -1,4 +1,6 @@
-﻿namespace Notes
+﻿using Windows.Media.AppBroadcasting;
+
+namespace Notes
 {
     public partial class MainPage : ContentPage
     {
@@ -8,9 +10,27 @@
         public MainPage()
         {
             InitializeComponent();
+            if (File.Exists(caminho))
+            {
+                CaixaEditor.Text = File.ReadAllText(caminho);
+            }
+            
         }
         private void Apagarbtn_Clicked(object sender, EventArgs e)
         {
+            
+            if (File.Exists(caminho))
+            {
+                
+                File.Delete(caminho);
+                clear
+                CaixaEditor.Text = "";
+                DisplayAlert("Arquivo apagado", "Arquivo apagado com sucesso", "OK");
+            }
+            else
+            {
+                DisplayAlert("Arquivo inexistente", "O arquivo ja foi Apagado ou não existe.", "OK");
+            }
 
         }
 
@@ -18,6 +38,7 @@
         {
             String conteudo = CaixaEditor.Text;
             File.WriteAllText(caminho , conteudo);
+            DisplayAlert($"Arquivo salvo",conteudo + " salvo em: " + caminho , "OK");
         }
     }
 
