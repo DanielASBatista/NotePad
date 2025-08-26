@@ -23,8 +23,7 @@ namespace Notes
             {
                 
                 File.Delete(caminho);
-                clear
-                CaixaEditor.Text = "";
+                CaixaEditor.Text = string.Empty;
                 DisplayAlert("Arquivo apagado", "Arquivo apagado com sucesso", "OK");
             }
             else
