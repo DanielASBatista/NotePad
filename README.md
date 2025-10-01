@@ -3,7 +3,8 @@ Daniel Alves dos Santos Batista - RM: 251376  <br><br>
 
 Pagina inicial da aplicação, exibindo campo para input de texto e botão para salvar ou excluir o arquivo contendo o que foi digitado na caixa de texto.  <br><br>
 
-![telaInicial](https://github.com/user-attachments/assets/38b2517a-cd21-49d5-9eb6-181c8443acdf)  <br><br>
+![inicial](https://github.com/user-attachments/assets/61c1e646-e905-42ca-9280-f38d999af519)<br><br>
+
 
 
 Bloco de notas criando um texto digitado em arquivo, salvando o documento e indicando o caminho de salvamento.  <br><br>
@@ -16,4 +17,5 @@ Ação de exclusão do arquivo concluída com informe ao usuário a respeito do 
 
 
 ![telaApagado](https://github.com/user-attachments/assets/83c39035-f2ab-463f-908e-ead16e408873)  <br><br>
+
 
