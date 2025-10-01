@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.AboutPage"
-             Title="AboutPage">
+             Title="Repositório do projeto">
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -13,7 +13,7 @@
                 HeightRequest="250"
                 WidthRequest="250"
                 Aspect="AspectFill"
-                SemanticProperties.Description="odeio o santos"/>
+                SemanticProperties.Description="Logo branco do GitHub com fundo transparente."/>
             <Label 
                 Text="Notes App v1.0"
                 Style="{StaticResource Headline}"
@@ -21,7 +21,7 @@
                 HorizontalOptions="Center" />
             <Button
                 x:Name="LinkGit"
-                Text="Ir para o GitHub" 
+                Text="Ir para o repositório do projeto" 
                 SemanticProperties.Hint="Vai pro Git quando clica"
                 Clicked="LinkGit_Clicked"
                 HorizontalOptions="Fill"/>

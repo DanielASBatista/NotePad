@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Notes.MainPage">
+             x:Class="Notes.MainPage"
+             Title="NotePad">
 
     <ScrollView>
         <VerticalStackLayout
@@ -23,11 +24,10 @@
                 <Button
                     x:Name="Apagarbtn"
                     Text="Apagar" 
-                    SemanticProperties.Hint="Deletar a anotação"
+                    SemanticProperties.Hint="Deletar a anotação. Caso não exista anotação, avisa ao usuário que a anotação já foi apagada ou é inexistente."
                     Clicked="Apagarbtn_Clicked"
                     HorizontalOptions="Fill" />
             </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>

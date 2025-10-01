@@ -24,11 +24,11 @@ namespace Notes
                 
                 File.Delete(caminho);
                 CaixaEditor.Text = string.Empty;
-                DisplayAlert("Arquivo apagado", "Arquivo apagado com sucesso", "OK");
+                DisplayAlert("Arquivo apagado.", "Arquivo apagado com sucesso.", "OK");
             }
             else
             {
-                DisplayAlert("Arquivo inexistente", "O arquivo ja foi Apagado ou não existe.", "OK");
+                DisplayAlert("Arquivo inexistente!", "O arquivo ja foi apagado ou não existe.", "OK");
             }
 
         }
@@ -37,7 +37,7 @@ namespace Notes
         {
             String conteudo = CaixaEditor.Text;
             File.WriteAllText(caminho , conteudo);
-            DisplayAlert($"Arquivo salvo",conteudo + " salvo em: " + caminho , "OK");
+            DisplayAlert($"Arquivo salvo", "Arquivo " + conteudo + " salvo em: " + caminho , "OK");
         }
     }
 
